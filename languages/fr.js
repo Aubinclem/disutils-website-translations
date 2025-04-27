@@ -4,9 +4,9 @@
  * This file contains all the English translations for the Disutils Team website.
  * It includes text for navigation, footer, pages, and other UI elements.
  *
- * Language Code: en
- * Author: RejectModders
- * Discord: rejectmodders
+ * Language Code: fr
+ * Author: aubinclem
+ * Discord: aubinclem
  * Last Updated: 4/21/2025
  *
  * Usage:
@@ -24,45 +24,45 @@
 
 module.exports = {
     config: {
-        description: "A dedicated group of individuals committed to enhancing and simplifying the Discord experience for all users.",
+        description: "Un group d'individus dédiés au fait d'améliorer et de simplifier l'experience Discord pour tout le monde.",
         footer: "Copyright © Disutils Team 24-25. All rights reserved."
     },
 
     nav: {
-        home: "Home",
+        home: "Menu Home",
         news: "News",
         faq: "FAQ",
-        team: "Our Team",
-        partners: "Our Partners",
-        bots: "Our Bots",
-        contact: "Contact Us",
-        more: "More",
-        login: "Login",
+        team: "Notre Équipe",
+        partners: "Nos Partenaires",
+        bots: "Nos Bots",
+        contact: "Contactez-Nous",
+        more: "Plus",
+        login: "Connexion",
     },
 
     navsub: {
-        mainpages: "Main Pages",
-        statuspages: "Status Pages",
+        mainpages: "Pages Principales",
+        statuspages: "Pages De Status",
         support: "Support",
-        community: "Community",
-        voting: "Voting",
-        otherpages: "Other Pages",
+        community: "Communauté",
+        voting: "Voter",
+        otherpages: "Autres Pages",
 
         // Main Pages
         changelogs: "Changelogs",
         documentation: "Documentation",
-        prices: "Prices",
+        prices: "Prix",
 
         // Status Pages
-        botstatus: "Bot Status",
-        overallstatus: "Overall Status",
+        botstatus: "Status Bot",
+        overallstatus: "Status Global",
 
         // Support
-        supportserver: "Support Server",
-        emailus: "Email Us",
+        supportserver: "Serveur De Support",
+        emailus: "Envoyer un Email",
 
         // Community
-        discordserver: "Discord Server",
+        discordserver: "Serveur Discord",
         applyforstaff: "Apply for Staff",
         applyforpartner: "Apply for Partner",
 
@@ -71,18 +71,18 @@ module.exports = {
         discollaborg: "Discollab.org", // keep English
 
         // Other Pages
-        blacklistappeal: "Blacklist Appeal",
+        blacklistappeal: "Demande de dé-blacklist",
         terms: "Terms of Service",
         privacy: "Privacy Policy",
 
         // Languages
-        languages: "Languages"
+        languages: "Langages"
     },
 
     footer: {
-        brief: "Enhancing your server experience with top-notch bots and utilities.",
-        topgg: "Vote on Top.gg",
-        discollaborg: "Vote on Discollab.org"
+        brief: "Améliorant votre expérience serveur avec les meilleurs bots et utilitaies.",
+        topgg: "Votez sur Top.gg",
+        discollaborg: "Votez sur Discollab.org"
     },
 
     home: {
@@ -90,9 +90,9 @@ module.exports = {
         supportserver: "Support Server",
         custombots: "Custom Bots",
         showcase: "Showcased Bots",
-        ourselection: "Our Selection of Showcased Bots",
-        ourselectionbrief: "Our selection of showcased bots, handpicked for their exceptional performance and reliability.",
-        learnmore: "Learn more",
+        ourselection: "Notre selection de bots",
+        ourselectionbrief: "Notre sélection de bots, choisis pour leur performance et leur fiabilité exceptionnelle.",
+        learnmore: "Apprenez-en plus",
 
         harmodifybrief: "Harmodify is a powerful music bot with seamless playback and high-quality sound. Ideal for gaming sessions or hangouts.",
         playdisbrief: "Playdis is a fun-packed game bot with engaging games and a built-in economy system. Ideal for friendly competition and rewards.",
